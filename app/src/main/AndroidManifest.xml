@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_WIFI_NETWORKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BABA YAGA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".twentyone"
+            android:exported="false" />
+        <activity
+            android:name=".twenty"
+            android:exported="false" />
+        <activity
+            android:name=".nineteen"
+            android:exported="false" />
+        <activity
+            android:name=".eighteen"
+            android:exported="false" />
+        <activity
+            android:name=".seventeen"
+            android:exported="false" />
+        <activity
+            android:name=".sixteen"
+            android:exported="false" />
+        <activity
+            android:name=".fifteen"
+            android:exported="false" />
+        <activity
+            android:name=".fourteen"
+            android:exported="false" />
+        <activity
+            android:name=".thirteen"
+            android:exported="false" />
+        <activity
+            android:name=".twelve"
+            android:exported="false" />
+        <activity
+            android:name=".eleven"
+            android:exported="false" />
+        <activity
+            android:name=".tenth"
+            android:exported="false" />
+        <activity
+            android:name=".nine"
+            android:exported="false" />
+        <activity
+            android:name=".eight"
+            android:exported="false" />
+        <activity
+            android:name=".seven"
+            android:exported="false" />
+        <activity
+            android:name=".sixth"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".fifth"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".forth"
+            android:exported="false" />
+        <activity
+            android:name=".third"
+            android:exported="false" />
+        <activity
+            android:name=".second"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

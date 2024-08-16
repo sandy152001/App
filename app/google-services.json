@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197433285152",
+    "project_id": "maddy-4acf9",
+    "storage_bucket": "maddy-4acf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197433285152:android:561dec67ef30b9ed553a45",
+        "android_client_info": {
+          "package_name": "com.example.internshipbaba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt7jQLsLsxY1xJ5do2c7ucK7LK4vVZY60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

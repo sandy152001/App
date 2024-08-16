@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/tf"
+    tools:context=".second">
+
+
+    <Button
+        android:id="@+id/sweet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/baseline_home_24">
+    </Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round2"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#F4F0F0"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round2"
+        android:text="SIGN UP"
+        android:textColor="#F4F0F0"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+</LinearLayout>

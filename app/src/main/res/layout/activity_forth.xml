@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bu"
+    tools:context=".forth">
+
+    <Button
+        android:id="@+id/bad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/arrow1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+           android:id="@+id/imageview1"
+           android:layout_width="160dp"
+           android:layout_height="160dp"
+           android:src="@drawable/account" />
+
+        <EditText
+           android:id="@+id/EditTextText"
+           android:layout_width="340dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="40dp"
+           android:background="@drawable/custom"
+           android:drawableLeft="@drawable/baseline_person_24"
+           android:drawablePadding="8dp"
+           android:hint="Email"
+           android:padding="15dp"
+            android:textStyle="bold"
+           android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <EditText
+           android:id="@+id/EditTextText2"
+           android:layout_width="340dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="40dp"
+           android:background="@drawable/custom"
+           android:drawableLeft="@drawable/baseline_lock_24"
+           android:drawablePadding="8dp"
+           android:hint="Password"
+            android:textStyle="bold"
+           android:padding="15dp"
+            android:textSize="17sp"
+           android:textColor="@color/black" />
+
+        <ProgressBar
+           android:id="@+id/progressBar1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:padding="15dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="245dp"
+            android:layout_height="67dp"
+            android:background="@drawable/round3"
+            android:text="SIGN UP"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="38dp"
+            android:layout_marginTop="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

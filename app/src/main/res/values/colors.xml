@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0047AB</color>
+    <color name="green">#266f05</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="colorPrimary">#FFE9DC</color>
+    <color name="colorPrimaryDark">#FFE9DC</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#232023</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="orange">#ffa500</color>
+    <!-- customer bar -->
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sk"
+    android:gravity="center"
+    tools:context=".nine">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="110dp">
+
+        <EditText
+            android:id="@+id/EditTextText7"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_search_24"
+            android:background="@drawable/round6"
+            android:hint="Search"
+            android:padding="15dp"
+            android:drawablePadding="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="15dp"
+            android:background="@drawable/baseline_notifications_active_24"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="190dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp">
+
+            <ImageButton
+                android:id="@+id/imagebutton1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lib">
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp">
+
+            <ImageButton
+                android:id="@+id/imagebutton2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/calculator">
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="90dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp">
+
+            <ImageButton
+                android:id="@+id/imagebutton3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/baseline_settings_24">
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp">
+
+            <ImageButton
+                android:id="@+id/imagebutton4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lib">
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
